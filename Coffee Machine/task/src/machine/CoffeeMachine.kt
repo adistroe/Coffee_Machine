@@ -86,7 +86,7 @@ class CoffeeMachine(
         }
     }
 
-    //  process user input according to current which machine state
+    //  process user input according to current machine state
     fun getUserInput(userInput: String) {
         //  waiting at main menu (buy, fill, take ...)
         if (machineState == Machine.WAITING) {
